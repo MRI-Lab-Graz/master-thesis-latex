@@ -13,8 +13,9 @@ This repository provides a beginner-friendly LaTeX template for students to crea
 ### 1. Clone or Download the Repository
 
 - Option 1: **Clone the repository**
+  
   ```bash
-  git clone https://github.com/your-username/apa-thesis-template.git
+  git clone https://github.com/MRI-Lab-Graz/master-thesis-latex.git
   ```
 
 - Option 2: **Download as ZIP**
