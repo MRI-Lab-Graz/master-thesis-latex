@@ -85,6 +85,10 @@ Provide necessary background information here.
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this template.
 
+## Contact
+
+If you have any problems, try to solve them yourself ;-) Or get in contact <karl.koschutnig@uni-graz.at>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
