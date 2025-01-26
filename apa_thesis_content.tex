@@ -1,0 +1,110 @@
+% apa_thesis_content.tex
+% Main entry point for the thesis, referencing the template settings
+
+\documentclass[man]{apa7}
+\usepackage{lipsum}
+\input{template/apa_template_settings} % Load the settings
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+
+\textbf{Susi Sorglos}
+
+\large
+
+\vspace{1.5cm}
+\Large
+\textbf{Sitzt zu hause und föhnt ihr Haar}
+
+\vspace{0.5cm}
+\normalsize
+\textbf{Schabba du und schabba da}
+
+\vspace{1.5cm}
+\Large
+\textbf{Masterarbeit}
+
+\vspace{0.5cm}
+
+
+
+
+\normalsize
+zur Erlangung des akademischen Grades „Master of Science“
+an der Naturwissenschaftlichen Fakultät
+der Karl-Franzens-Universität Graz
+
+\vspace{3cm}
+
+\includegraphics[width=0.2\textwidth]{figures/uni-graz-logo.pdf}
+\vspace{3cm}
+
+\centering
+\centering
+Begutachter: Prof. Dr. Harry Hirsch\\
+Institut für Psychologie\\
+\today
+
+
+\end{titlepage}
+
+% Abstract
+\newpage
+\begin{abstract}
+
+This is the abstract section. It provides a summary of the thesis, including the purpose, methods, results, and conclusions. Typically, this section should be no longer than 250 words.
+\end{abstract}
+
+% Kurzfassung
+\newpage
+\section*{Kurzfassung}
+Dies ist die Kurzfassung der Arbeit. Sie fasst die Ziele, Methoden, Ergebnisse und Schlussfolgerungen zusammen.
+
+% Danksagung
+\newpage
+\section*{Danksagung}
+Ich möchte mich bei allen bedanken, die mich während der Erstellung dieser Arbeit unterstützt haben.
+
+% Declaration
+\newpage
+\section*{Eidesstattliche Erklärung}
+Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und nur mit den angegebenen Hilfsmitteln angefertigt habe.
+
+% Table of Contents
+\newpage
+\tableofcontents
+\newpage
+
+% Chapters
+\newpage
+\section{Introduction}
+The first sentence should reference a fink paper \cite{Fink2021}
+\lipsum[1-4] % Replace with actual content
+
+\section{Literature Review}
+\lipsum[5-8]
+
+\section{Methods}
+\lipsum[9-12]
+
+\section{Results}
+\lipsum[13-16]
+
+\section{Discussion}
+\lipsum[17-20]
+
+% References
+\newpage
+\section*{References}
+\printbibliography
+
+% Appendices (if any)
+\appendix
+\section{Appendix Title}
+\lipsum[21-23]
+
+\end{document}

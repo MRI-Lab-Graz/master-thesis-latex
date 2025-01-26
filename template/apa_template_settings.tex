@@ -1,0 +1,22 @@
+% apa_template_settings.tex
+% Contains only preamble settings for the thesis
+
+% Load packages and configure settings
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage[american]{babel}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+% Header settings
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\fancyhead[L]{\shorttitle} % Running title on the left
+\fancyhead[R]{\thepage} % Page number on the right
+\renewcommand{\headrulewidth}{0pt} % Remove horizontal bar
+
+% Document-wide formatting
+\doublespacing
