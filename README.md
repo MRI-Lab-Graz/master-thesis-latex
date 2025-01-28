@@ -1,4 +1,4 @@
-# LaTeX APA Thesis Template
+# OverLeaf Masterthesis Template
 
 This repository provides a beginner-friendly LaTeX template for students to create APA-style theses using Overleaf. The template includes all necessary settings and structures to help you get started with academic writing in APA format.
 
