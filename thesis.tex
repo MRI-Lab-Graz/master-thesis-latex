@@ -1,62 +1,37 @@
-% apa_thesis_content.tex
-% Main entry point for the thesis, referencing the template settings
+% Vorlage für Masterabreit am Institut für Psychologie Graz
+% Idee/Umsetzung: Mag. Dr. Karl Koschutnig / MRI LAb Graz
+% Bei Fragen karl.koschutnig@uni-graz.at
 
 \documentclass[man]{apa7}
-\usepackage{lipsum}
-\input{template/apa_template_settings} % Load the settings
+% Load the settings
+
+
+% === Hier alle Angaben zum Titelblatt ausfüllen ===
+\newcommand{\thesisauthor}{Susi Sorglos}
+\newcommand{\thesistitle}{Sitzt zu hause und föhnt ihr Haar}
+\newcommand{\thesissubtitle}{Schabba du und schabba da}
+\newcommand{\thesisadvisor}{Prof. Dr. Harry Hirsch}
+\newcommand{\thesisinstitute}{Institut für Psychologie}
+\newcommand{\thesisdate}{21.03.1917}
+
+
+\input{template/apa_template_settings} 
 
 \begin{document}
-
-% Title page
-\begin{titlepage}
-\centering
-\vspace*{1cm}
-
-\textbf{Susi Sorglos}
-
-\large
-
-\vspace{1.5cm}
-\Large
-\textbf{Sitzt zu hause und föhnt ihr Haar}
-
-\vspace{0.5cm}
-\normalsize
-\textbf{Schabba du und schabba da}
-
-\vspace{1.5cm}
-\Large
-\textbf{Masterarbeit}
-
-\vspace{0.5cm}
-
-
-
-
-\normalsize
-zur Erlangung des akademischen Grades „Master of Science“
-an der Naturwissenschaftlichen Fakultät
-der Karl-Franzens-Universität Graz
-
-\vspace{3cm}
-
-\includegraphics[width=0.2\textwidth]{figures/uni-graz-logo.pdf}
-\vspace{3cm}
-
-\centering
-\centering
-Begutachter: Prof. Dr. Harry Hirsch\\
-Institut für Psychologie\\
-\today
-
-
-\end{titlepage}
+\maketitlepage
 
 % Abstract
 \newpage
 \begin{abstract}
 
-This is the abstract section. It provides a summary of the thesis, including the purpose, methods, results, and conclusions. Typically, this section should be no longer than 250 words.
+This is the abstract section. Hallo and It provides a summary of the thesis, including the purpose, methods, results, and conclusions. Typically, this section should be no longer than 250 words.
+
+\vspace{2mm}
+
+\noindent\textbf{Keywords:} \textit{Keyword1, Keyword2}
+
+\vspace{5mm}
+
 \end{abstract}
 
 % Kurzfassung
