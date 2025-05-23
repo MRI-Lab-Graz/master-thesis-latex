@@ -30,13 +30,12 @@ This repository provides a beginner-friendly LaTeX template for students to crea
 
 ### 3. Start Writing Your Thesis
 
-- Open `apa_thesis_content.tex` and replace the example content with your own.
-- Use `apa_template_settings.tex` to configure settings (if needed). Most users won’t need to modify this file.
+- Open `thesis.tex` and replace the example content with your own.
 
 ## File Structure
 
 - **`apa_template_settings.tex`**: Contains all formatting and style settings for APA compliance.
-- **`apa_thesis_content.tex`**: The main file where you write your thesis content.
+- **`thesis.tex`**: The main file where you write your thesis content.
 - **BibTeX File (Optional)**: You can add a `.bib` file for managing references.
 
 ## How to Compile
